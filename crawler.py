@@ -11,7 +11,7 @@ CATEGORIES = [
 
 # identitas mahasiswa
 NIM = "235150201111003"
-INISIAL = "DWI"
+INISIAL = "DCM"
 
 # file output
 output_file = "1_CRAWL_DwiCahyaMaulani_Mahasiswa_1.txt"

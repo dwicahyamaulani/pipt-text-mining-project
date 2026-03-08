@@ -1,5 +1,5 @@
 <DOC>
-<ID>DWI-1</ID>
+<ID>DCM-1</ID>
 <NIM>235150201111003</NIM>
 <TITLE>4 Cara Cepat Turunkan Kadar Gula Darah Saat Tiba-tiba Naik</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260304121128-255-1334173/4-cara-cepat-turunkan-kadar-gula-darah-saat-tiba-tiba-naik</URL>
@@ -9,7 +9,7 @@ Kadargula darah yang tiba-tiba melonjak perlu segera ditangani agar tidak berkem
 </DOC>
 
 <DOC>
-<ID>DWI-2</ID>
+<ID>DCM-2</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Sering Dianggap Sama, Dokter Jelaskan Beda Ruam Campak dan Cacar Air</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260307112916-255-1335322/sering-dianggap-sama-dokter-jelaskan-beda-ruam-campak-dan-cacar-air</URL>
@@ -19,7 +19,7 @@ Campak belakangan jadi sorotan. Sayangnya, gejala campak sering kali terlihat mi
 </DOC>
 
 <DOC>
-<ID>DWI-3</ID>
+<ID>DCM-3</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Waspada! Sembarangan Makan All You Can Eat Bisa Picu GERD</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260306230035-255-1335242/waspada-sembarangan-makan-all-you-can-eat-bisa-picu-gerd</URL>
@@ -29,7 +29,7 @@ Restoran dengan konsep all you can eat (AYCE) semakin populer dan sering menjadi
 </DOC>
 
 <DOC>
-<ID>DWI-4</ID>
+<ID>DCM-4</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Ramai Sahur Hanya Protein dan Nol Karbo, Memang Lebih Tahan Lapar?</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260302171056-255-1333497/ramai-sahur-hanya-protein-dan-nol-karbo-memang-lebih-tahan-lapar</URL>
@@ -39,7 +39,7 @@ Tren sahur tanpa karbohidrat tak jarang diikuti dengan pola makan tinggi protein
 </DOC>
 
 <DOC>
-<ID>DWI-5</ID>
+<ID>DCM-5</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Jangan Tunggu Parah, Kenali 10 Tanda Kista Ovarium Ini Sejak Dini</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260226140044-255-1332089/jangan-tunggu-parah-kenali-10-tanda-kista-ovarium-ini-sejak-dini</URL>
@@ -49,7 +49,7 @@ Kistaovarium sering kali tidak menimbulkan gejala, terutama jika ukurannya kecil
 </DOC>
 
 <DOC>
-<ID>DWI-6</ID>
+<ID>DCM-6</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Tak Cuma Anak, Campak pada Orang Dewasa Bisa Picu Komplikasi Serius</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260305154514-255-1334704/tak-cuma-anak-campak-pada-orang-dewasa-bisa-picu-komplikasi-serius</URL>
@@ -59,7 +59,7 @@ Campak bukan sekedarpenyakit yang menyerang anak-anak, tetapi infeksi virus yang
 </DOC>
 
 <DOC>
-<ID>DWI-7</ID>
+<ID>DCM-7</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Primaya Hospital Tambah RS Baru, Targetkan 30 Cabang dalam 5 Tahun</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260306122240-255-1335002/primaya-hospital-tambah-rs-baru-targetkan-30-cabang-dalam-5-tahun</URL>
@@ -69,7 +69,7 @@ Ekspansi rumah sakit masih menjadi strategi utama bagi Primaya Hospital Group un
 </DOC>
 
 <DOC>
-<ID>DWI-8</ID>
+<ID>DCM-8</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Panik Baca Berita Perang? Ketahui Dampak dan Cara Mengatasinya</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260306071304-255-1334901/panik-baca-berita-perang-ketahui-dampak-dan-cara-mengatasinya</URL>
@@ -79,7 +79,7 @@ Di erainformasi yang serba cepat seperti sekarang, berita tentangperang dan konf
 </DOC>
 
 <DOC>
-<ID>DWI-9</ID>
+<ID>DCM-9</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Waspadai Benjolan di Payudara, Kenali Gejala Tumor Sejak Dini</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260305230234-255-1334856/waspadai-benjolan-di-payudara-kenali-gejala-tumor-sejak-dini</URL>
@@ -89,7 +89,7 @@ Benjolan di payudara sering kali memicu kekhawatiran. Tidak sedikit perempuan ya
 </DOC>
 
 <DOC>
-<ID>DWI-10</ID>
+<ID>DCM-10</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Waktu Terbaik Olahraga Saat Puasa, Sebelum atau Sesudah Berbuka?</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260305124538-255-1334617/waktu-terbaik-olahraga-saat-puasa-sebelum-atau-sesudah-berbuka</URL>
@@ -99,7 +99,7 @@ Menentukan waktu yang tepat untuk berolahraga saat puasa sering kali membingungk
 </DOC>
 
 <DOC>
-<ID>DWI-11</ID>
+<ID>DCM-11</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Pengidap Diabetes Boleh Puasa, Tapi Ikuti 5 Saran Dokter Berikut</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260305183045-255-1334779/pengidap-diabetes-boleh-puasa-tapi-ikuti-5-saran-dokter-berikut</URL>
@@ -109,7 +109,7 @@ Diabetes seyogianya tak menjadi halangan bagi siapa pun yang ingin berpuasa. Pua
 </DOC>
 
 <DOC>
-<ID>DWI-12</ID>
+<ID>DCM-12</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Jangan Dilakukan, 5 Kebiasaan Pagi Ini Merusak Otak</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260304111212-255-1334148/jangan-dilakukan-5-kebiasaan-pagi-ini-merusak-otak</URL>
@@ -119,7 +119,7 @@ Bangun tidur, apa yang biasanya kamu lakukan? Jika masih melakukan kebiasaan ber
 </DOC>
 
 <DOC>
-<ID>DWI-13</ID>
+<ID>DCM-13</ID>
 <NIM>235150201111003</NIM>
 <TITLE>1 dari 4 Orang Indonesia Alami Obesitas, Ini Penjelasan Dokter</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260305105923-255-1334573/1-dari-4-orang-indonesia-alami-obesitas-ini-penjelasan-dokter</URL>
@@ -129,7 +129,7 @@ Satu dari empat orang dewasa di Indonesia hidup dengan obesitas. Angka ini menun
 </DOC>
 
 <DOC>
-<ID>DWI-14</ID>
+<ID>DCM-14</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Dikira ISK, Pria 29 Tahun Ini Ternyata Kanker Usus</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260303184307-255-1333949/dikira-isk-pria-29-tahun-ini-ternyata-kanker-usus</URL>
@@ -139,7 +139,7 @@ Seorang pria asal Bandung membagikan pengalamannya didiagnosis kanker usus besar
 </DOC>
 
 <DOC>
-<ID>DWI-15</ID>
+<ID>DCM-15</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Sekilas Serupa, Kenali 3 Beda Campak dan Cacar Air</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260305080102-255-1334488/sekilas-serupa-kenali-3-beda-campak-dan-cacar-air</URL>
@@ -149,7 +149,7 @@ Beberapa penyakit tampak mirip termasukcampak dan cacar air. Padahal keduanya be
 </DOC>
 
 <DOC>
-<ID>DWI-16</ID>
+<ID>DCM-16</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Konsumsi 6 Vitamin Ini untuk Jaga Daya Tahan Tubuh Saat Puasa</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260302164650-255-1333485/konsumsi-6-vitamin-ini-untuk-jaga-daya-tahan-tubuh-saat-puasa</URL>
@@ -159,7 +159,7 @@ Selama menjalankan ibadah puasa, tubuh tidak mendapatkan asupanmakanan dan minum
 </DOC>
 
 <DOC>
-<ID>DWI-17</ID>
+<ID>DCM-17</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Benarkah Manfaat Kurma Muda Efektif untuk Program Hamil?</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260303170704-255-1333922/benarkah-manfaat-kurma-muda-efektif-untuk-program-hamil</URL>
@@ -169,7 +169,7 @@ Klaim tentang manfaat kurma muda semakin ramai dibicarakan, terutama di kalangan
 </DOC>
 
 <DOC>
-<ID>DWI-18</ID>
+<ID>DCM-18</ID>
 <NIM>235150201111003</NIM>
 <TITLE>7 Menu Sahur Berkuah Tanpa Santan, Hangat dan Mengenyangkan</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260306164446-262-1335140/7-menu-sahur-berkuah-tanpa-santan-hangat-dan-mengenyangkan</URL>
@@ -179,7 +179,7 @@ Saat sahur di bulan Ramadhan, banyak orang memilih hidangan berkuah untuk mengha
 </DOC>
 
 <DOC>
-<ID>DWI-19</ID>
+<ID>DCM-19</ID>
 <NIM>235150201111003</NIM>
 <TITLE>6 'Superfood' Buat Menu Sahur agar Tidak Gampang Lapar</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260224171654-262-1331356/6-superfood-buat-menu-sahur-agar-tidak-gampang-lapar</URL>
@@ -189,7 +189,7 @@ Saat rasa lapar kian menjadi, otak susah diajak konsentrasi. Sebaiknya pilih men
 </DOC>
 
 <DOC>
-<ID>DWI-20</ID>
+<ID>DCM-20</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Terbuat dari Kurma, Ini Beda Air Nabeez dan Khamr</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260307102042-262-1335305/terbuat-dari-kurma-ini-beda-air-nabeez-dan-khamr</URL>
@@ -199,7 +199,7 @@ Air nabeezdan khamrsering dianggap minuman yang serupa karena sama-sama terbuat 
 </DOC>
 
 <DOC>
-<ID>DWI-21</ID>
+<ID>DCM-21</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Buah Terbaik untuk Buka Puasa, Ini Kata Ahli Gizi</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260225153838-262-1331722/buah-terbaik-untuk-buka-puasa-ini-kata-ahli-gizi</URL>
@@ -209,7 +209,7 @@ Memilih buah yang tepat saat berbuka puasa bukan sekadar soal rasa manis. Lebih 
 </DOC>
 
 <DOC>
-<ID>DWI-22</ID>
+<ID>DCM-22</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Rahasia Nasi Sushi Pulen ala Koki Jepang Nobu Matsuhisa</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260305153149-262-1334698/rahasia-nasi-sushi-pulen-ala-koki-jepang-nobu-matsuhisa</URL>
@@ -219,7 +219,7 @@ Koki Jepang ternama, Nobu Matsuhisa, membagikan cara menanak nasi sushi yang ben
 </DOC>
 
 <DOC>
-<ID>DWI-23</ID>
+<ID>DCM-23</ID>
 <NIM>235150201111003</NIM>
 <TITLE>Ini 5 Makanan yang Harus Dihindari Saat Perut Kosong Setelah Puasa</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260303160126-262-1333888/ini-5-makanan-yang-harus-dihindari-saat-perut-kosong-setelah-puasa</URL>
@@ -229,7 +229,7 @@ Anda perlu memilih dan memilah makanan saat berbuka puasa. Soalnya, ada sejumlah
 </DOC>
 
 <DOC>
-<ID>DWI-24</ID>
+<ID>DCM-24</ID>
 <NIM>235150201111003</NIM>
 <TITLE>7 Makanan Ini Tak Boleh Dimakan Penderita Batu Ginjal, Tinggi Oksalat</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260302172817-262-1333510/7-makanan-ini-tak-boleh-dimakan-penderita-batu-ginjal-tinggi-oksalat</URL>
@@ -239,7 +239,7 @@ Penderita batu ginjal harus mengatur asupan yang dimakan sehari-hari. Terdapatbe
 </DOC>
 
 <DOC>
-<ID>DWI-25</ID>
+<ID>DCM-25</ID>
 <NIM>235150201111003</NIM>
 <TITLE>6 Ide Masakan Daging Sapi yang Sudah Direbus</TITLE>
 <URL>https://www.cnnindonesia.com/gaya-hidup/20260303130049-262-1333780/6-ide-masakan-daging-sapi-yang-sudah-direbus</URL>
