@@ -62,5 +62,34 @@ def main():
         # Konten maksimal 200 karakter[cite: 2]
         print(f"   {konten[:200]}...\n")
 
+    # Evaluasi
+    doc_relevan = input(
+        "\nMasukkan ID dokumen relevan "
+        "(pisahkan dengan koma): "
+    )
+
+    doc_relevan = [
+        x.strip()
+        for x in doc_relevan.split(",")
+    ]
+
+    precision, recall, f1 = reval.evaluasi_per_query(
+        hasil,
+        doc_relevan,
+        k=5
+    )
+
+    map_score = reval.hitung_map(
+        hasil,
+        doc_relevan,
+        k=5
+    )
+
+    print("\nHASIL EVALUASI")
+    print(f"Precision@5 : {precision:.2f}")
+    print(f"Recall@5    : {recall:.2f}")
+    print(f"F1-score@5  : {f1:.2f}")
+    print(f"MAP@5       : {map_score:.2f}")
+
 if __name__ == "__main__":
     main()
