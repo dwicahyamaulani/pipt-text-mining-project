@@ -8,7 +8,7 @@ import sys
 # BAGIAN 1: UTILITAS PREPROCESSING
 def bersihkan_token(teks):
     """Tokenisasi sederhana: ubah ke huruf kecil, hapus tanda baca."""
-    bersih = re.sub(r'[^\w\s]', '', teks.lower())
+    bersih = re.sub(r"[^\w\s]", "", teks.lower())
     return [t for t in bersih.split() if t]
 
 
@@ -18,11 +18,11 @@ def pecah_kalimat(teks):
     Pemisah: titik, tanda tanya, tanda seru.
     Kalimat dengan < 3 kata diabaikan.
     """
-    kalimat_raw = re.split(r'(?<=[.!?])\s+', teks)
+    kalimat_raw = re.split(r"(?<=[.!?])\s+", teks)
     return [k.strip() for k in kalimat_raw if len(k.strip().split()) >= 3]
 
 
-# BAGIAN 2: PERINGKASAN EXTRACTIVE BERBASIS TF-IDF 
+# BAGIAN 2: PERINGKASAN EXTRACTIVE BERBASIS TF-IDF
 def hitung_tf_kalimat(tokens):
     """
     Hitung Term Frequency (TF) untuk sebuah kalimat.
@@ -80,8 +80,9 @@ def ringkas_dokumen(konten, data_idf, top_n=3):
     if not kalimat:
         return []
 
-    skor_list = [(idx, k, skor_kalimat_tfidf(k, data_idf))
-                 for idx, k in enumerate(kalimat)]
+    skor_list = [
+        (idx, k, skor_kalimat_tfidf(k, data_idf)) for idx, k in enumerate(kalimat)
+    ]
 
     # Ambil top_n berdasarkan skor tertinggi
     skor_urut = sorted(skor_list, key=lambda x: x[2], reverse=True)
@@ -95,10 +96,10 @@ def ringkas_dokumen(konten, data_idf, top_n=3):
 def hitung_cosine(vektor_q, vektor_d):
     """Cosine similarity antara dua vektor TF-IDF."""
     irisan = set(vektor_q.keys()) & set(vektor_d.keys())
-    atas   = sum(vektor_q[k] * vektor_d[k] for k in irisan)
-    sum_q  = sum(v ** 2 for v in vektor_q.values())
-    sum_d  = sum(v ** 2 for v in vektor_d.values())
-    bawah  = math.sqrt(sum_q) * math.sqrt(sum_d)
+    atas = sum(vektor_q[k] * vektor_d[k] for k in irisan)
+    sum_q = sum(v**2 for v in vektor_q.values())
+    sum_d = sum(v**2 for v in vektor_d.values())
+    bawah = math.sqrt(sum_q) * math.sqrt(sum_d)
     return atas / bawah if bawah != 0 else 0.0
 
 
@@ -108,8 +109,7 @@ def buat_vektor_kueri(teks, data_idf):
     tf_q = {}
     for t in tokens:
         tf_q[t] = tf_q.get(t, 0) + 1
-    return {kata: tf * data_idf[kata]
-            for kata, tf in tf_q.items() if kata in data_idf}
+    return {kata: tf * data_idf[kata] for kata, tf in tf_q.items() if kata in data_idf}
 
 
 def cari_dokumen(vektor_kueri, vektor_doc, batas=10):
@@ -127,14 +127,14 @@ def cari_folder_data():
     """Cari folder yang berisi documents.json secara otomatis."""
     kandidat = [
         os.getcwd(),
-        os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'tugas3'),
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tugas3"),
         os.path.dirname(os.path.abspath(__file__)),
     ]
     if len(sys.argv) > 1:
         kandidat.insert(0, sys.argv[1])
 
     for folder in kandidat:
-        if os.path.exists(os.path.join(folder, 'documents.json')):
+        if os.path.exists(os.path.join(folder, "documents.json")):
             return os.path.abspath(folder)
 
     raise FileNotFoundError(
@@ -146,11 +146,13 @@ def cari_folder_data():
 
 def muat_data(folder):
     """Muat tiga file JSON dari folder data."""
+
     def baca(nama):
-        with open(os.path.join(folder, nama), 'r', encoding='utf-8') as f:
+        with open(os.path.join(folder, nama), "r", encoding="utf-8") as f:
             return json.load(f)
+
     print(f"  Folder data : {folder}")
-    return baca('documents.json'), baca('doc_vectors.json'), baca('idf_values.json')
+    return baca("documents.json"), baca("doc_vectors.json"), baca("idf_values.json")
 
 
 def ambil_info(dokumen, doc_id):
@@ -160,8 +162,8 @@ def ambil_info(dokumen, doc_id):
 
 def tampilkan_ringkasan(rank, doc_id, info, data_idf):
     """Tampilkan hasil pencarian dengan peringkasan extractive TF-IDF."""
-    judul  = info.get('title') or info.get('judul') or "(judul tidak tersedia)"
-    konten = info.get('content') or info.get('konten') or ""
+    judul = info.get("title") or info.get("judul") or "(judul tidak tersedia)"
+    konten = info.get("content") or info.get("konten") or ""
 
     print(f"\n{rank}. {judul.upper()} | ID={doc_id}")
 
@@ -169,8 +171,9 @@ def tampilkan_ringkasan(rank, doc_id, info, data_idf):
 
     if ringkasan:
         for idx_kalimat, teks_kalimat in ringkasan:
-            tampil = (teks_kalimat if len(teks_kalimat) <= 300
-                      else teks_kalimat[:297] + "...")
+            tampil = (
+                teks_kalimat if len(teks_kalimat) <= 300 else teks_kalimat[:297] + "..."
+            )
             print(f"   {tampil} [{idx_kalimat}]")
     else:
         cuplikan = konten[:250] + "..." if len(konten) > 250 else konten
@@ -198,7 +201,7 @@ def main():
 
     while True:
         kueri_raw = input("\nMasukkan kueri (atau 'keluar' untuk berhenti): ").strip()
-        if not kueri_raw or kueri_raw.lower() in ('keluar', 'exit', 'quit', 'q'):
+        if not kueri_raw or kueri_raw.lower() in ("keluar", "exit", "quit", "q"):
             print("Program selesai.")
             break
 
@@ -223,7 +226,9 @@ def main():
                 tampilkan_ringkasan(rank, doc_id, info, data_idf)
             else:
                 # Rank 4+: judul saja
-                judul = info.get('title') or info.get('judul') or "(judul tidak tersedia)"
+                judul = (
+                    info.get("title") or info.get("judul") or "(judul tidak tersedia)"
+                )
                 print(f"\n{rank}. {judul} | ID={doc_id}")
 
         print("\n" + "=" * 65)
