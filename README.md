@@ -1,4 +1,4 @@
-<h1 align="center">PIPT Text Mining Project</h1>
+<h1 align="center">Indonesian News Search Engine</h1>
 
 <p align="center">
   <em>From Raw News Articles to a Working Search Engine</em>
